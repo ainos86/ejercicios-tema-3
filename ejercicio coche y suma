@@ -1,0 +1,28 @@
+class Car {int doors;
+    
+    Car(int numberOfDoors) {
+        doors = numberOfDoors;
+    }
+    
+    public void addDoor(){
+        doors = doors + 1;
+    }
+}
+
+public class Main
+{
+ 
+ 	public static int sum(int x, int y, int z) {
+        return x + y + z;
+    }
+    
+	public static void main(String[] args) {
+		
+    	// Primera parte	
+    	int result = sum(2,4,6);
+    	System.out.println(result);
+    
+        // Segunda parte
+        Car car = new Car(2);
+        car.addDoor();
+        System
