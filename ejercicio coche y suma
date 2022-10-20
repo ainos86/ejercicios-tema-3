@@ -1,4 +1,5 @@
-class Car {int doors;
+class Car {
+int doors;
     
     Car(int numberOfDoors) {
         doors = numberOfDoors;
@@ -9,8 +10,7 @@ class Car {int doors;
     }
 }
 
-public class Main
-{
+public class Main {
  
  	public static int sum(int x, int y, int z) {
         return x + y + z;
@@ -25,4 +25,4 @@ public class Main
         // Segunda parte
         Car car = new Car(2);
         car.addDoor();
-        System
+        System.out.println
