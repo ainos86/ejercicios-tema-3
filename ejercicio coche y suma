@@ -1,11 +1,11 @@
 class Car {
 int doors;
     
-    Car(int numberOfDoors) {
+    	Car(int numberOfDoors) {
         doors = numberOfDoors;
     }
     
-    public void addDoor(){
+   	public void addDoor(){
         doors = doors + 1;
     }
 }
@@ -25,4 +25,4 @@ public class Main {
         // Segunda parte
         Car car = new Car(2);
         car.addDoor();
-        System.out.println
+        System.out.println(car.doors)
